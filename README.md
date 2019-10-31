@@ -3,6 +3,8 @@ DApp Wallet for AION by BlockX Labs
 
 # Website
 https://getaiwa.com/
+
+# Chrome Extension
 https://chrome.google.com/webstore/detail/aiwa/objigohafkcoodmofgmifblmfidicehc
 
 # Building DApps with Aiwa
@@ -34,9 +36,8 @@ Go to chrome
 
 If you see blank white page after waiting, in Chrome go to 'https://localhost:3000/', Click Advanced and Proceed with Unsafe. Then go to chrome://extension -> Aiwa -> Click Reload icon.
 
-### Firefox
+### Firefox (is Experimental)
 `npm run dev-firefox`
-*Firefox is experimental*
 
 Go to firefox
 
