@@ -253,13 +253,13 @@ export async function viewTransaction() {
     const currentNetwork = store.getState().networks.currentNetwork.value;
     switch (currentNetwork) {
       case 'mastery':
-        tempviewAccountURL = `https://mastery.aion.network/#/transaction/${txHash}`;
+        tempviewAccountURL = `https://amity.theoan.com/#/transaction/${txHash}`;
         break;
       case 'mainnet':
-        tempviewAccountURL = `https://mainnet.aion.network/#/transaction/${txHash}`;
+        tempviewAccountURL = `https://mainnet.theoan.com/#/transaction/${txHash}`;
         break;
       default:
-        tempviewAccountURL = `https://mastery.aion.network/#/transaction/${txHash}`;
+        tempviewAccountURL = `https://amity.theoan.com/#/transaction/${txHash}`;
     }
 
     return tempviewAccountURL;

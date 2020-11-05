@@ -28,21 +28,21 @@ export const AION_NETWORK_LIST = [
     text: 'Mainnet',
     value: 'mainnet',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://mainnet-node.theoan.com/rpc',
     networkPort: '',
     networkFullUrl:
-      'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-    transactionUrl: 'https://mainnet.aion.network/#/transaction/',
+      'https://mainnet-node.theoan.com/rpc',
+    transactionUrl: 'https://mainnet.theoan.com/#/transaction/',
   },
   {
     text: 'Mastery',
     value: 'mastery',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     networkPort: '',
     networkFullUrl:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-    transactionUrl: 'https://mastery.aion.network/#/transaction/',
+      'https://amity-node.theoan.com/rpc',
+    transactionUrl: 'https://amity.theoan.com/#/transaction/',
   },
   {
     text: 'Localhost',

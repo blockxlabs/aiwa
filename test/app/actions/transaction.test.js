@@ -144,7 +144,7 @@ describe('Transaction Actions', () => {
       });
       const stubStore = sinon.stub(storage, 'getStore').returns(store);
       const tempviewAccountURL = await actions.viewTransaction();
-      assert.equal(tempviewAccountURL, `https://mastery.aion.network/#/transaction/${txHash}`);
+      assert.equal(tempviewAccountURL, `https://amity.theoan.com/#/transaction/${txHash}`);
       setLocalStorageStub.restore();
       stubStore.restore();
     });

@@ -35,5 +35,5 @@
     "activeTab",
     "https://*/*"
   ],
-  "content_security_policy": "script-src 'self' https://localhost:3000 https://api.nodesmith.io/ https://api.coingecko.com/ 'unsafe-eval'; img-src * data:; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://localhost:3000 https://amity-node.theoan.com/ https://mainnet-node.theoan.com/  https://api.coingecko.com/ 'unsafe-eval'; img-src * data:; object-src 'self'"
 }
