@@ -42,10 +42,10 @@ describe('Network Action', () => {
             text: 'Mainnet',
             value: 'mainnet',
             networkURL:
-              'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+              'https://mainnet-node.theoan.com/rpc',
             networkPort: '',
             networkFullUrl:
-              'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+              'https://mainnet-node.theoan.com/rpc',
           },
         },
         {
@@ -129,10 +129,10 @@ describe('Network Action', () => {
             text: 'Mainnet',
             value: 'mainnet',
             networkURL:
-              'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+              'https://mainnet-node.theoan.com/rpc',
             networkPort: '',
             networkFullUrl:
-              'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+              'https://mainnet-node.theoan.com/rpc',
           },
           '0xa03ca53f55ff4a37543f241717ca6674fa3b919cd327b0781d4dbc4272f37237',
         ),

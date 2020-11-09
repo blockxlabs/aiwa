@@ -169,7 +169,7 @@ const enableFn = async () => {
 const getInitialState = async () => {
   // initial url must be same as that's in extension pop up. If you change here change in popup as well
   initializeWeb3(
-    'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+    'https://amity-node.theoan.com/rpc',
   );
   const data = {};
   data.type = 'FROM_PAGE';

@@ -166,21 +166,21 @@ export const store = {
         text: 'Mainnet',
         value: 'mainnet',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://mainnet-node.theoan.com/rpc',
         networkPort: '',
         networkFullUrl:
-          'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-        transactionUrl: 'https://mainnet.aion.network/#/transaction/',
+          'https://mainnet-node.theoan.com/rpc',
+        transactionUrl: 'https://mainnet.theoan.com/#/transaction/',
       },
       {
         text: 'Mastery',
         value: 'mastery',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
         networkPort: '',
         networkFullUrl:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-        transactionUrl: 'https://mastery.aion.network/#/transaction/',
+          'https://amity-node.theoan.com/rpc',
+        transactionUrl: 'https://amity.theoan.com/#/transaction/',
       },
       {
         text: 'Localhost',
@@ -201,11 +201,11 @@ export const store = {
       text: 'Mastery',
       value: 'mastery',
       networkURL:
-        'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+        'https://amity-node.theoan.com/rpc',
       networkPort: '',
       networkFullUrl:
-        'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-      transactionUrl: 'https://mastery.aion.network/#/transaction/',
+        'https://amity-node.theoan.com/rpc',
+      transactionUrl: 'https://amity.theoan.com/#/transaction/',
     },
     showNetworkList: false,
   },
@@ -281,7 +281,7 @@ export const store = {
         to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
         confirmTimeStamp: '2018-11-21T18:22:19-05:00',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
         selectedToken: {
           id: 'aion',
           name: 'Aion',
@@ -349,7 +349,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -402,7 +402,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -462,7 +462,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -513,7 +513,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -580,7 +580,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -648,7 +648,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -700,7 +700,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -768,7 +768,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -835,7 +835,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -886,7 +886,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -937,7 +937,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1004,7 +1004,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1055,7 +1055,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1106,7 +1106,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1159,7 +1159,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1219,7 +1219,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         hash: '0xe6f7e8a46ad5980c9409a64653858e5c289ab584104b9307f4b65f316af665ba',
@@ -1228,7 +1228,7 @@ export const store = {
         to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
         confirmTimeStamp: '2018-11-20T18:36:52-05:00',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
         selectedToken: {
           id: 'aion',
           name: 'Aion',
@@ -1296,7 +1296,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1349,7 +1349,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1409,7 +1409,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1469,7 +1469,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1520,7 +1520,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1571,7 +1571,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1622,7 +1622,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -1673,7 +1673,7 @@ export const store = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
     ],
   },
@@ -1801,7 +1801,7 @@ export const store = {
 };
 
 export const privateKey = '0x838f3c6ff9ca644b4a8fc64813ffa67717b64a1a6f0fde726bb0ca3184fa07a48c90cab7250cd2191f53b019ab8b4fa2183c239ddbcdb107ab3eeac5cb2a6d77';
-export const networkFullUrl = 'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213';
+export const networkFullUrl = 'https://amity-node.theoan.com/rpc';
 export const nonERC777TokenData = {
   id: '',
   name: '',
@@ -2226,21 +2226,21 @@ export const storeTokenSelected = {
         text: 'Mainnet',
         value: 'mainnet',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://mainnet-node.theoan.com/rpc',
         networkPort: '',
         networkFullUrl:
-          'https://api.nodesmith.io/v1/aion/mainnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-        transactionUrl: 'https://mainnet.aion.network/#/transaction/',
+          'https://mainnet-node.theoan.com/rpc',
+        transactionUrl: 'https://mainnet.theoan.com/#/transaction/',
       },
       {
         text: 'Mastery',
         value: 'mastery',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
         networkPort: '',
         networkFullUrl:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-        transactionUrl: 'https://mastery.aion.network/#/transaction/',
+          'https://amity-node.theoan.com/rpc',
+        transactionUrl: 'https://amity.theoan.com/#/transaction/',
       },
       {
         text: 'Localhost',
@@ -2261,11 +2261,11 @@ export const storeTokenSelected = {
       text: 'Mastery',
       value: 'mastery',
       networkURL:
-        'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+        'https://amity-node.theoan.com/rpc',
       networkPort: '',
       networkFullUrl:
-        'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
-      transactionUrl: 'https://mastery.aion.network/#/transaction/',
+        'https://amity-node.theoan.com/rpc',
+      transactionUrl: 'https://amity.theoan.com/#/transaction/',
     },
     showNetworkList: false,
   },
@@ -2344,7 +2344,7 @@ export const storeTokenSelected = {
         to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
         confirmTimeStamp: '2018-11-21T18:22:19-05:00',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
         selectedToken: {
           id: 'aion',
           name: 'Aion',
@@ -2412,7 +2412,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2465,7 +2465,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2525,7 +2525,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2576,7 +2576,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2643,7 +2643,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2711,7 +2711,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2763,7 +2763,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2831,7 +2831,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2898,7 +2898,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -2949,7 +2949,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3000,7 +3000,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3067,7 +3067,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3118,7 +3118,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3169,7 +3169,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3222,7 +3222,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3282,7 +3282,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         hash: '0xe6f7e8a46ad5980c9409a64653858e5c289ab584104b9307f4b65f316af665ba',
@@ -3291,7 +3291,7 @@ export const storeTokenSelected = {
         to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
         confirmTimeStamp: '2018-11-20T18:36:52-05:00',
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
         selectedToken: {
           id: 'aion',
           name: 'Aion',
@@ -3359,7 +3359,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3412,7 +3412,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3472,7 +3472,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3532,7 +3532,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3583,7 +3583,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3634,7 +3634,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3685,7 +3685,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
       {
         txReceipt: {
@@ -3736,7 +3736,7 @@ export const storeTokenSelected = {
           },
         },
         networkURL:
-          'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+          'https://amity-node.theoan.com/rpc',
       },
     ],
   },
@@ -4244,7 +4244,7 @@ export const sendAIONTransactionsPendingDApp = [
     to: '0xa0008062990254074ffcf5cc431a5d35cc446902e6ad0044eb848126febf7a85',
     confirmTimeStamp: '2018-11-22T15:18:59-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -4261,7 +4261,7 @@ export const sendAIONTransactionsPendingDApp = [
     to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
     confirmTimeStamp: '2018-11-21T18:22:19-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -4329,7 +4329,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4382,7 +4382,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4442,7 +4442,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4493,7 +4493,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4560,7 +4560,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4628,7 +4628,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4680,7 +4680,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4748,7 +4748,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4815,7 +4815,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4866,7 +4866,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4917,7 +4917,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -4984,7 +4984,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5035,7 +5035,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5086,7 +5086,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5139,7 +5139,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5199,7 +5199,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     hash: '0xe6f7e8a46ad5980c9409a64653858e5c289ab584104b9307f4b65f316af665ba',
@@ -5208,7 +5208,7 @@ export const sendAIONTransactionsPendingDApp = [
     to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
     confirmTimeStamp: '2018-11-20T18:36:52-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -5276,7 +5276,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5329,7 +5329,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5389,7 +5389,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5449,7 +5449,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5500,7 +5500,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5551,7 +5551,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5602,7 +5602,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -5653,7 +5653,7 @@ export const sendAIONTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -6171,7 +6171,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     hash: '0x7b383c87291fb326a9bd0c0dce3abd1be2faa07bedda105933ee0f90ab5a08b3',
@@ -6180,7 +6180,7 @@ export const sendAIONTransactionsMinedDApp = [
     to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
     confirmTimeStamp: '2018-11-21T18:22:19-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -6248,7 +6248,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6301,7 +6301,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6361,7 +6361,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6412,7 +6412,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6479,7 +6479,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6547,7 +6547,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6599,7 +6599,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6667,7 +6667,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6734,7 +6734,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6785,7 +6785,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6836,7 +6836,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6903,7 +6903,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -6954,7 +6954,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7005,7 +7005,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7058,7 +7058,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7118,7 +7118,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     hash: '0xe6f7e8a46ad5980c9409a64653858e5c289ab584104b9307f4b65f316af665ba',
@@ -7127,7 +7127,7 @@ export const sendAIONTransactionsMinedDApp = [
     to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
     confirmTimeStamp: '2018-11-20T18:36:52-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -7195,7 +7195,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7248,7 +7248,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7308,7 +7308,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7368,7 +7368,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7419,7 +7419,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7470,7 +7470,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7521,7 +7521,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -7572,7 +7572,7 @@ export const sendAIONTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -8048,7 +8048,7 @@ export const sendTokenTransactionsPendingDApp = [
     to: '0xa0008062990254074ffcf5cc431a5d35cc446902e6ad0044eb848126febf7a85',
     confirmTimeStamp: '2018-11-22T15:43:42-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aiwa3',
       name: 'AIWA3',
@@ -8124,7 +8124,7 @@ export const sendTokenTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8175,7 +8175,7 @@ export const sendTokenTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -8300,7 +8300,7 @@ export const sendTokenTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8368,7 +8368,7 @@ export const sendTokenTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8419,7 +8419,7 @@ export const sendTokenTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -8485,7 +8485,7 @@ export const deployContractTransactionsPendingDApp = [
     USD: '-',
     confirmTimeStamp: '2018-11-22T15:57:48-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -8560,7 +8560,7 @@ export const deployContractTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8628,7 +8628,7 @@ export const deployContractTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8679,7 +8679,7 @@ export const deployContractTransactionsPendingDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -8807,7 +8807,7 @@ export const deployContractTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8874,7 +8874,7 @@ export const deployContractTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8942,7 +8942,7 @@ export const deployContractTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -8993,7 +8993,7 @@ export const deployContractTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -9077,7 +9077,7 @@ export const callContractFunctionTransactionsPendingDApp = [
     to: '0xa0c2e4ea426762de0676686ca7265ddc29c406dcd50125eeff2f71d5d7089325',
     confirmTimeStamp: '2018-11-22T16:13:57-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -9168,7 +9168,7 @@ export const callContractFunctionTransactionsMinedDApp = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -9200,7 +9200,7 @@ export const sendAIONTransactionsPendingExt = [
     to: '0xa003086828b535c4b8e2b28782f39087ec810777af4d2d65ae488bd76c30221f',
     confirmTimeStamp: '2018-11-22T16:24:25-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -9282,7 +9282,7 @@ export const sendAIONTransactionsMinedExt = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -9314,7 +9314,7 @@ export const sendTokenTransactionsPendingExt = [
     to: '0xa0008062990254074ffcf5cc431a5d35cc446902e6ad0044eb848126febf7a85',
     confirmTimeStamp: '2018-11-22T16:29:56-05:00',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aiwa3',
       name: 'AIWA3',
@@ -9383,7 +9383,7 @@ export const sendTokenTransactionsPendingExt = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -9492,7 +9492,7 @@ export const sendTokenTransactionsMinedExt = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -9552,7 +9552,7 @@ export const sendTokenTransactionsMinedExt = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 

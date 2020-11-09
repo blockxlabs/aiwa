@@ -14,6 +14,6 @@ export default {
 
 /* AION URLs :
  * Network                      View Account                                       View Transactions
- * Testnet      https://mastery.aion.network/#/account/${address}      https://mastery.aion.network/#/transaction/${txHash}
- * Mainnet      https://mainnet.aion.network/#/account/${address}       https://mainnet.aion.network/#/transaction/${txHash}
+ * Testnet      https://amity.theoan.com/#/account/${address}      https://amity.theoan.com/#/transaction/${txHash}
+ * Mainnet      https://mainnet.theoan.com/#/account/${address}       https://mainnet.theoan.com/#/transaction/${txHash}
  *  */

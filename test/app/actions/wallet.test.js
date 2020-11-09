@@ -97,10 +97,10 @@ describe('getVaultBalance', () => {
       networks: {
         currentNetwork: {
           networkFullUrl:
-            'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+            'https://amity-node.theoan.com/rpc',
           networkPort: '',
           networkURL:
-            'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+            'https://amity-node.theoan.com/rpc',
           text: 'Mastery',
           value: 'mastery',
         },
@@ -176,10 +176,10 @@ describe('getCurrentWalletBalance', () => {
       networks: {
         currentNetwork: {
           networkFullUrl:
-            'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+            'https://amity-node.theoan.com/rpc',
           networkPort: '',
           networkURL:
-            'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+            'https://amity-node.theoan.com/rpc',
           text: 'Mastery',
           value: 'mastery',
         },

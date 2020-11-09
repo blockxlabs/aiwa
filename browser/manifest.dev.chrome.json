@@ -31,5 +31,5 @@
     "https://*/*",
     "http://*/*"
   ],
-  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 http://127.0.0.1:8545/ https://api.nodesmith.io/ http://aion-mastery.bdnodes.net:8545 https://api.coingecko.com/ http://192.168.1.201:8545/ 'unsafe-eval'; connect-src * data:; style-src * 'unsafe-inline'  'unsafe-eval' blob:; img-src * data:; font-src 'self' http://localhost:3000 http://127.0.0.1:8545/ https://api.nodesmith.io/ http://aion-mastery.bdnodes.net:8545 https://localhost:3000 https://fonts.gstatic.com/ https://api.coingecko.com/ http://192.168.1.201:8545/ 'unsafe-eval' data: ;"
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 http://127.0.0.1:8545/ https://amity-node.theoan.com/rpc https://api.coingecko.com/ http://192.168.1.201:8545/ 'unsafe-eval'; connect-src * data:; style-src * 'unsafe-inline'  'unsafe-eval' blob:; img-src * data:; font-src 'self' http://localhost:3000 http://127.0.0.1:8545/ https://amity-node.theoan.com/ https://mainnet-node.theoan.com/ http://aion-mastery.bdnodes.net:8545 https://localhost:3000 https://fonts.gstatic.com/ https://api.coingecko.com/ http://192.168.1.201:8545/ 'unsafe-eval' data: ;"
 }

@@ -108,10 +108,10 @@ export const defaultNetworksState = {
       text: 'Mastery',
       value: 'mastery',
       networkURL:
-        'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+        'https://amity-node.theoan.com/rpc',
       networkPort: '',
       networkFullUrl:
-        'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+        'https://amity-node.theoan.com/rpc',
     },
   },
 };
@@ -297,7 +297,7 @@ export const vaultImportWithoutCurrentWalletSuccessfulResponse = {
   hashKey: 'this-is-a-really-cool-hash-key',
 };
 
-const txns1 = '{"0xa00fd17c0c67825e0c2499eae0d5820b3a69fb5b54159d7328b8a74982537802":[{"hash":"0x339defca8286ef7ceb1d482503a54b59414bcd11f8f1db575693ee97bb12cf8f","value":"0.1","to":"0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403","confirmTimeStamp":"2018-12-07T14:33:06+05:30","networkURL":"https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213","selectedToken":{"id":"aion","name":"Aion","symbol":"AION","decimals":18,"address":"none","balance":{"amount":0.3,"usd":0.042}}},{"txReceipt":{"blockHash":"0xc23ec0120e9b30a50bbe64e0e36fa053089c5061eaddcf9e94cb4db997867899","nrgPrice":"0x02ad741300","logsBloom":"00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","nrgUsed":21000,"contractAddress":null,"transactionIndex":0,"transactionHash":"0x7b383c87291fb326a9bd0c0dce3abd1be2faa07bedda105933ee0f90ab5a08b3","gasLimit":"0x5208","cumulativeNrgUsed":21000,"gasUsed":"0x5208","blockNumber":1163300,"root":"13d71a2053f0d50993938bdd3bc99992bcfffa0a375bb2c617284f5befbc18f6","cumulativeGasUsed":"0x5208","from":"0xa0334cfaba37bac3479c7f12d0098c02b22a5a43d99b2136ae0e70faa55b8b3a","to":"0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403","logs":[],"gasPrice":"0x02ad741300","status":"0x1"},"tx":{"nrgPrice":"11500000000","blockHash":"0xc23ec0120e9b30a50bbe64e0e36fa053089c5061eaddcf9e94cb4db997867899","nrg":21000,"transactionIndex":0,"nonce":4,"input":"0x","blockNumber":1163300,"gas":21000,"from":"0xa0334cfaba37bac3479c7f12d0098c02b22a5a43d99b2136ae0e70faa55b8b3a","to":"0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403","value":"0.1","hash":"0x7b383c87291fb326a9bd0c0dce3abd1be2faa07bedda105933ee0f90ab5a08b3","gasPrice":"0x2ad741300","timestamp":1544172978,"confirmTimeStamp":"2018-12-07T14:26:13+05:30","selectedToken":{"id":"aion","name":"Aion","symbol":"AION","decimals":18,"address":"none","balance":{"amount":0.3,"usd":0.042}}},"networkURL":"https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213"}],"0xa09309b9a625bcb780e735ac9fce3b87bd3c172760bed4a3bf4a8b6fb5b00b20":[],"0xa0069eb11405e21e5ca40b737559aff78bad1f22611aad23f8cfbfb2c63bd3d0":[],"0xa0bae282de261d56b47198128197be6882d3bc6bf3289b0172e0b77dd77e0a26":[],"0xa09e3e8079a65d87060c5be7272922aaa21b9b545536dce43ded63c190898c96":[],"0xa09b947a76d21af738ccf5463425336026befe20d1b9ce1f423b15847bb49f1e":[]}';
+const txns1 = '{"0xa00fd17c0c67825e0c2499eae0d5820b3a69fb5b54159d7328b8a74982537802":[{"hash":"0x339defca8286ef7ceb1d482503a54b59414bcd11f8f1db575693ee97bb12cf8f","value":"0.1","to":"0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403","confirmTimeStamp":"2018-12-07T14:33:06+05:30","networkURL":"https://amity-node.theoan.com/rpc","selectedToken":{"id":"aion","name":"Aion","symbol":"AION","decimals":18,"address":"none","balance":{"amount":0.3,"usd":0.042}}},{"txReceipt":{"blockHash":"0xc23ec0120e9b30a50bbe64e0e36fa053089c5061eaddcf9e94cb4db997867899","nrgPrice":"0x02ad741300","logsBloom":"00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000","nrgUsed":21000,"contractAddress":null,"transactionIndex":0,"transactionHash":"0x7b383c87291fb326a9bd0c0dce3abd1be2faa07bedda105933ee0f90ab5a08b3","gasLimit":"0x5208","cumulativeNrgUsed":21000,"gasUsed":"0x5208","blockNumber":1163300,"root":"13d71a2053f0d50993938bdd3bc99992bcfffa0a375bb2c617284f5befbc18f6","cumulativeGasUsed":"0x5208","from":"0xa0334cfaba37bac3479c7f12d0098c02b22a5a43d99b2136ae0e70faa55b8b3a","to":"0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403","logs":[],"gasPrice":"0x02ad741300","status":"0x1"},"tx":{"nrgPrice":"11500000000","blockHash":"0xc23ec0120e9b30a50bbe64e0e36fa053089c5061eaddcf9e94cb4db997867899","nrg":21000,"transactionIndex":0,"nonce":4,"input":"0x","blockNumber":1163300,"gas":21000,"from":"0xa0334cfaba37bac3479c7f12d0098c02b22a5a43d99b2136ae0e70faa55b8b3a","to":"0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403","value":"0.1","hash":"0x7b383c87291fb326a9bd0c0dce3abd1be2faa07bedda105933ee0f90ab5a08b3","gasPrice":"0x2ad741300","timestamp":1544172978,"confirmTimeStamp":"2018-12-07T14:26:13+05:30","selectedToken":{"id":"aion","name":"Aion","symbol":"AION","decimals":18,"address":"none","balance":{"amount":0.3,"usd":0.042}}},"networkURL":"https://amity-node.theoan.com/rpc"}],"0xa09309b9a625bcb780e735ac9fce3b87bd3c172760bed4a3bf4a8b6fb5b00b20":[],"0xa0069eb11405e21e5ca40b737559aff78bad1f22611aad23f8cfbfb2c63bd3d0":[],"0xa0bae282de261d56b47198128197be6882d3bc6bf3289b0172e0b77dd77e0a26":[],"0xa09e3e8079a65d87060c5be7272922aaa21b9b545536dce43ded63c190898c96":[],"0xa09b947a76d21af738ccf5463425336026befe20d1b9ce1f423b15847bb49f1e":[]}';
 export const transactionsLocalStorageObj1 = { transactions: txns1 };
 
 export const txReceiept = {
@@ -337,7 +337,7 @@ export const txReceiept = {
     timestamp: 1544173404,
     confirmTimeStamp: '2018-12-07T14:33:06+05:30',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 };
 
@@ -379,7 +379,7 @@ export const updateTxnListSuccessPayload = [
       timestamp: 1544173404,
       confirmTimeStamp: '2018-12-07T14:33:06+05:30',
       networkURL:
-        'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+        'https://amity-node.theoan.com/rpc',
       selectedToken: {
         id: 'aion',
         name: 'Aion',
@@ -393,7 +393,7 @@ export const updateTxnListSuccessPayload = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
   {
     txReceipt: {
@@ -446,7 +446,7 @@ export const updateTxnListSuccessPayload = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -548,7 +548,7 @@ export const fetchTransactionPayload = [
     to: '0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403',
     confirmTimeStamp: '2018-12-07T14:33:06+05:30',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -606,7 +606,7 @@ export const fetchTransactionPayload = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
 
@@ -617,7 +617,7 @@ export const updateTxnListPayload = [
     to: '0xa0e4c8213a0cc0a6edb33341dec44328a1f6dea823dd1aa77193562428b81403',
     confirmTimeStamp: '2018-12-07T14:33:06+05:30',
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
     selectedToken: {
       id: 'aion',
       name: 'Aion',
@@ -675,6 +675,6 @@ export const updateTxnListPayload = [
       },
     },
     networkURL:
-      'https://api.nodesmith.io/v1/aion/testnet/jsonrpc?apiKey=85268e8181c74b249a93581a8cb9c213',
+      'https://amity-node.theoan.com/rpc',
   },
 ];
