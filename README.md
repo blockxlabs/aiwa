@@ -45,6 +45,23 @@ Go to firefox
 - Click `Load Temporary Add-on...`
 - open any file from built `aiwa/dev/firefox` directory
 
+### Build using docker
+
+From the application home run:
+
+To create the image:
+
+`docker build -t aiwa-img:latest -f ./resources/docker/Dockerfile  .`
+
+Chrome build:
+
+`docker run  --privileged --rm -v $PWD:/app -w /app  aiwa-img:latest  /bin/sh -c "yarn  && yarn build"`
+
+Firefox build:
+
+`docker run  --privileged --rm -v $PWD:/app -w /app  aiwa-img:latest  /bin/sh -c "yarn  && yarn build-firefox"`
+
+
 # More
 We are working towards creating Contribution Guidelines.
 Aiwa is licensed as [AGPL][agpl] software.
